@@ -7,7 +7,7 @@
   cursor: pointer;
   display: inline-block;
   font-family: $base-font-family;
-  font-size: $base-font-size;
+  font-size: ($base-font-size * .85);
   -webkit-font-smoothing: antialiased;
   font-weight: 600;
   line-height: 1;
@@ -32,4 +32,9 @@
       background-color: $action-color;
     }
   }
+}
+
+.function_link {
+  display: inline-block;
+  margin-top: 1em;
 }
