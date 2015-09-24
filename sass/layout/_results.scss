@@ -4,9 +4,14 @@
 
 	.function_item {
 		flex: 1 1 auto;
-		padding: 1em;
-		background-color: red;
+		padding: $base-spacing;
+		background-color: color(function_item);
 		margin: .5em;
 		text-align: center;
 	}
+}
+
+.function_descr {
+	max-width: 15em;
+	margin: 0 auto;
 }
