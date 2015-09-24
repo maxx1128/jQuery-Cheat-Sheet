@@ -1,3 +1,5 @@
+$max-width: 1000em;
+
 body {
 	@include outer-container;
 	padding: $base-spacing $small-spacing;
