@@ -1,0 +1,12 @@
+.function_list {
+	display: flex;
+	flex-wrap: wrap;
+
+	.function_item {
+		flex: 1 1 auto;
+		padding: 1em;
+		background-color: red;
+		margin: .5em;
+		text-align: center;
+	}
+}
