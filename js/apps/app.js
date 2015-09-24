@@ -10,9 +10,10 @@ function init() {
 };
 init();
 
-function container(function_name) {
+function container(function_name, description) {
   var item = '<article class="function_item">
-                <h3>' + function_name + '</h3>
+                <h4>' + function_name + '</h4>
+                <p class="descr">' + description + '</p>
               </article>';
 
   $(elements.container).append(item);
@@ -22,6 +23,6 @@ function showInfo(data) {
   console.log(data);
 
   for (i = 0; i < data.length; i++) { 
-    container(data[i].functionname);
+    container(data[i].functionname, data[i].description);
   };
 };

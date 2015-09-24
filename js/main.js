@@ -1,6 +1,6 @@
 //=require ../components/jquery/dist/jquery.min.js
 //=require ../components/tabletop/src/tabletop.js
-//=require ../components/sieve/sieve.min.js
+//=require ../components/jquery-sieve/dist/jquery.sieve.min.js
 
 $(document).ready(function () {
 
