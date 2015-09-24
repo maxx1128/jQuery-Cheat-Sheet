@@ -1,5 +1,3 @@
-# Plately
+# jQuery Cheat Sheet
 
-This is the starting foundation for all my front-end development projects. It gives the basic architecture for using Jade, Sass, jQuery, and using Gulp to efficiently automate most of these tasks.
-
-For more info, you can see the project's website here: http://maxx1128.github.io/Plately/
+A quick reference to useful jQuery events that uses Tabletop and Sieve to quickly update and organize them. Currently in development.
