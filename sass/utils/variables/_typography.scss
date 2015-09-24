@@ -1,10 +1,12 @@
+@import url(https://fonts.google.com/css?family=Roboto+Mono:400,700,400italic);
+
 // ----- Typography Variables ----- //
 
 /// The default font family for all text except headers. Can be a specific font family or a Bourbon font stack variable.
 /// @type Variable | String(s)
 /// @group Typography
 /// @link http://bourbon.io/docs/#font-face
-$base-font-family: $lucida-grande;
+$base-font-family: 'Roboto-Mono', sans-serif;
 
 /// The default font family for only headers. Can be a specific font family or a Bourbon font variable. By default, it's the same as the base font.
 /// @type Variable | String(s)
@@ -31,7 +33,7 @@ $base-font-scale: 0;
 /// @see modular-size-map
 /// @link http://www.modularscale.com/
 /// @link https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/functions/_modular-scale.scss
-$modular-scale-ratio: $minor-third;
+$modular-scale-ratio: $major-third;
 
 /// This is the base font size to be used when creating all the other scaled font sizes. Best left as the base font size in most cases.
 /// @type Integer
@@ -45,7 +47,7 @@ $modular-scale-base: $base-font-size;
 /// @group Typography
 /// @see modular-size-map
 /// @see modular-scale-ratio
-$scaled-font-ratio: .9;
+$scaled-font-ratio: .85;
 
 /// The base line height for all major text elements aside from headers.
 /// @type Integer
