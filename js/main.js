@@ -16,6 +16,7 @@ $(document).ready(function () {
 
 // Components
 //=require components/sieve.js
+//=require components/aside.js
 
 // Pages
 //=require pages/page.js

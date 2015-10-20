@@ -1,11 +1,10 @@
-$max-width: 1000em;
+$susy: (
+  columns: 12,
+  gutters: 1/4,
+  math: fluid,
+  gutter-position: split,
+);
 
-body {
-	@include outer-container;
-	padding: $base-spacing $small-spacing;
-
-	@include media(breakpoint(tablet)) {
-		@include span-columns(10);
-		@include shift(1);
-	}
+html {
+	@include container(95%);
 }

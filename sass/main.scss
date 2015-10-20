@@ -3,7 +3,7 @@
 
 @import 
  '../components/bourbon/app/assets/stylesheets/bourbon',
- '../components/neat/app/assets/stylesheets/neat';
+ '../components/susy/sass/susy';
 
 @import
   'utils/functions';
@@ -26,7 +26,8 @@
  
 @import
   'layout/grid',
-  'layout/results';
+  'layout/results',
+  'layout/aside';
 
 @import
   'components/tables',

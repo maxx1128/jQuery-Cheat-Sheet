@@ -4,7 +4,7 @@
 
 	.function_item {
 		flex: 1 1 auto;
-		padding: $base-spacing;
+		padding: $base-spacing $small-spacing;
 		background-color: color(function_item);
 		margin: .5em;
 		text-align: center;

@@ -1,0 +1,39 @@
+aside {
+	@include span(8);
+	@include position(absolute, null null null -100%);
+	@include transition(.5s);
+}
+
+.aside-button {
+	@include position(absolute, null null null 1em);
+	@include transition(.5s);
+}
+
+body .aside-button-move {
+	left: 69%;
+}
+
+section {
+	padding-top: 2.5em;
+}
+
+@include susy-media($tablet-screen) {
+
+	aside {
+		@include span(4);
+		@include position(relative, 0 0 0 0);
+	}
+
+	.aside-button {
+		display: none;
+	}
+
+	body .aside-button-move {
+		left: 8em;
+	}
+
+	section {
+		@include span(8);
+		padding-top: 0 !important;
+	}
+}
