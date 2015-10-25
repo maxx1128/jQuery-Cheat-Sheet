@@ -1,5 +1,6 @@
 .show-aside {
-	@include position(absolute, null null null 2.5%);
+	position: absolute;
+	left: 0 !important;
 	@include transition(.5s);
 
 	@include susy-media($tablet-screen) {

@@ -1,27 +1,40 @@
-aside {
-	@include span(8);
-	@include position(absolute, null null null -100%);
+.side-content {
+	@include span(9);
+	@include position(fixed, null null null -100%);
 	@include transition(.5s);
+	@include padding(2.5%);
+	box-sizing: border-box;
+	@include gutters(0px);
+
+	background-color: red;
+	height: 100vh;
 }
 
 .aside-button {
-	@include position(absolute, null null null 1em);
+	@include position(absolute, null null null 140%);
 	@include transition(.5s);
 }
 
 body .aside-button-move {
-	left: 69%;
+	left: 102%;
 }
 
 section {
-	padding-top: 2.5em;
+	padding-top: 3em;
+	@include padding(null 2.5%);
+	box-sizing: border-box;
 }
 
 @include susy-media($tablet-screen) {
 
-	aside {
+	.side-content {
+		@include padding(2.5%);
+		box-sizing: border-box;
+		background-color: red;
+
 		@include span(4);
-		@include position(relative, 0 0 0 0);
+		@include position(fixed, null null null 0);
+		@include gutters(0px);
 	}
 
 	.aside-button {
@@ -34,6 +47,7 @@ section {
 
 	section {
 		@include span(8);
+		@include push(4);
 		padding-top: 0 !important;
 	}
 }

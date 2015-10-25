@@ -5,6 +5,7 @@ $susy: (
   gutter-position: split,
 );
 
-html {
-	@include container(95%);
+body {
+	@include clearfix;
+	margin: 0;
 }
