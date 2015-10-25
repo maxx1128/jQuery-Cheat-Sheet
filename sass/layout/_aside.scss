@@ -11,16 +11,21 @@
 }
 
 .aside-button {
-	@include position(absolute, null null null 140%);
+	@include position(absolute, 0 null null 136%);
 	@include transition(.5s);
+
+	box-sizing: border-box;
+	font-size: 1.5em;
+	@include padding(.5em 1em);
+	background-color: red;
 }
 
 body .aside-button-move {
-	left: 102%;
+	left: 100%;
 }
 
 section {
-	padding-top: 3em;
+	padding-top: 4.5em;
 	@include padding(null 2.5%);
 	box-sizing: border-box;
 }
@@ -48,6 +53,6 @@ section {
 	section {
 		@include span(8);
 		@include push(4);
-		padding-top: 0 !important;
+		padding-top: 1.5em !important;
 	}
 }
